@@ -43,3 +43,16 @@ Flask
 12. requirements.tx        = necessary installations
 13. SqlOperations.py       = Contains SqlOperations.
 14. YoutubeScrapping.py    = To Interact with Youtube
+
+# Workflow
+* Initializes Selenium Chrome driver with respect to the OS of the user.
+* Goes to Video Section of mentioned Youtube Channel Url
+* Gets latest N number of videos mentioned .
+* Initializes another Selenium Chrome driver to open collected N number of video.
+* Gets Likes,total comments,title,thumbnail of the video.
+* Stores these data in sql.
+* Video downloaded by youtubedl is uploaded to gdrive via gdrive api and link is rendered.
+* Gets comments and commenters of the video.
+* Converts thumbnail of video to base64 format.
+* Stores these data in mongodb.
+* Displays all the collected data to the user via html
