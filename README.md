@@ -1,10 +1,27 @@
 # youtube-scrapper
 Youtube Scrapping using selenium and beautiful soup without youtube API 
 
+#Description
+1.If Url of a Youtube Channel and number of videos to fetch is given we can get
+    * Latest top number of videos mentioned with
+          * Channel Name
+          * Video link
+          * Title of the video
+          * Likes of the video
+          * Total comments of the video
+          * Comments of the video
+          * Commenters of the video
+          * Thumbnails of the video
+          * Thumbnail converted to base64
+          * Gdrive Link of the video (Video downloaded and uploaded to google drive)
+          
+  
+
 # Stacks Used
 Python 3.10.4
 SqlAlchemy -Postgresql
 MongoDB
+Flask
 
 # How to run the file
 1. Clone the repository
