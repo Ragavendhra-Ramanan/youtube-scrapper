@@ -1,8 +1,8 @@
 # youtube-scrapper
 Youtube Scrapping using selenium and beautiful soup without youtube API 
 
-#Description
-1.If Url of a Youtube Channel and number of videos to fetch is given we can get
+# Description
+1 . If Url of a Youtube Channel and number of videos to fetch is given we can get
     * Latest top number of videos mentioned with
           * Channel Name
           * Video link
