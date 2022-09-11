@@ -38,8 +38,8 @@ Flask
 7. manage.py              = It is used for migarting sql database
 8. models.py              = It is used for creating database entity
 9. MongoOperations.py     = Contains code to interact with mongodb
-10.Procfile               = For hosting in heroku
-11.RepositoryForObject.py = Contains tags to fetch for scraping youtube
-12.requirements.tx        = necessary installations
-13.SqlOperations.py       = Contains SqlOperations.
-14.YoutubeScrapping.py    = To Interact with Youtube
+10. Procfile               = For hosting in heroku
+11. RepositoryForObject.py = Contains tags to fetch for scraping youtube
+12. requirements.tx        = necessary installations
+13. SqlOperations.py       = Contains SqlOperations.
+14. YoutubeScrapping.py    = To Interact with Youtube
