@@ -1,17 +1,17 @@
 # youtube-scrapper
 Youtube Scrapping using selenium and beautiful soup without youtube API 
 
-#Stacks Used
+# Stacks Used
 Python 3.10.4
 SqlAlchemy -Postgresql
 MongoDB
 
-#How to run the file
+# How to run the file
 1. Clone the repository
 2. pip install -r  requirements.txt
 3. flask run
 
-#Files and Folders
+# Files and Folders
 1. templates              = contains basic html files
 2. app.py                 = starter file for flask app
 3. config.py              = configure environmental variables
